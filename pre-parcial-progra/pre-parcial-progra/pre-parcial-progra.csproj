@@ -43,17 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Ahorros.cs" />
     <Compile Include="Classes\Clientes.cs" />
-    <Compile Include="Classes\Donaciones.cs" />
+    <Compile Include="Classes\ISR.cs" />
+    <Compile Include="Classes\IVA.cs" />
     <Compile Include="Classes\Rubros.cs" />
+    <Compile Include="Classes\TransaccionesCliente.cs" />
+    <Compile Include="Interfaces\Iclientes.cs" />
+    <Compile Include="Interfaces\itransaccion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

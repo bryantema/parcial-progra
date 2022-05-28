@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace pre_parcial_progra.Classes
 {
-    class Rubros
+    public class Rubros
     {
-        public int idRubros { get; set; }
+        public int idrubro { get; set; }
         public int descripcion { get; set; }
+        public int nombre { get; set; }
+        public int cantidad { get; set; }
     }
 }
